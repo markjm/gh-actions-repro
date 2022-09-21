@@ -1,0 +1,9 @@
+name: 'Example action'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Say hello
+      run: echo "hello"
+      shell: bash
+
