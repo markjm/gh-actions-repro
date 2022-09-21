@@ -3,6 +3,7 @@ on:
 
 jobs:
   my-job:
+    runs-on: ubuntu-20.04
     steps:
       - name: Test
         id: test
