@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  my-job:
+    runs-on: default
+    steps:
+      - name: Test
+        id: test
+        uses: markjm/gh-actions-repro/action@ceebc81ab968c9ef6ca4dd5e18b2b8370570dfec
